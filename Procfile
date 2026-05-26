@@ -1,1 +1,1 @@
-web: python keep_alive.py
+worker: python keep_alive.py
