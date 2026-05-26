@@ -10,7 +10,7 @@ def ping_aria():
             print(f"✅ Pinged ARIA")
         except:
             print(f"❌ Ping failed")
-        time.sleep(600)
+        time.sleep(300)
 
 class Handler(BaseHTTPRequestHandler):
     def log_message(self, *a): pass
